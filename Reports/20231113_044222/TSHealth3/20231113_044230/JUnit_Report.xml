@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSHealth3" time="38.012" tests="3" failures="0" errors="0">
+   <testsuite name="TSHealth3" tests="3" failures="0" errors="0" time="38.012" skipped="0" timestamp="2023-11-13 04:42:39" hostname="KRESHNA PUTRA ADI - LAPTOP-7MTKCE68" id="Test Suites/TSHealth3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KRESHNA PUTRA ADI\\Katalon Studio\\KatalonPractitioner\\Reports\\20231113_044222\\TSHealth3\\20231113_044230"/>
+         <property name="logFiles" value="C:\\Users\\KRESHNA PUTRA ADI\\Katalon Studio\\KatalonPractitioner\\Reports\\20231113_044222\\TSHealth3\\20231113_044230\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KRESHNA PUTRA ADI - LAPTOP-7MTKCE68"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 103.0"/>
+         <property name="hostAddress" value="192.168.96.29"/>
+         <property name="sessionId" value="ece641a7-6f77-4850-a670-45638e89ebe7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Auth/LoginFailedPassword" time="16.431" classname="Test Cases/Healthcare/Auth/LoginFailedPassword" status="PASSED">
+         <system-out><![CDATA[2023-11-13 04:42:39 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Auth/LoginFailedPassword: Test Cases/Healthcare/Auth/LoginFailedPassword
+
+2023-11-13 04:42:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 04:42:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-11-13 04:42:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 04:42:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 04:42:43 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-13 04:42:52 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-13 04:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-13 04:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-13 04:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-13 04:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-13 04:42:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-13 04:42:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-13 04:42:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password"), "HmrGm9h9Lhv0hmTD06Fuuw=="): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-13 04:42:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-13 04:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-13 04:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Auth/LoginFailedUsername" time="14.01" classname="Test Cases/Healthcare/Auth/LoginFailedUsername" status="PASSED">
+         <system-out><![CDATA[2023-11-13 04:42:56 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Auth/LoginFailedUsername: Test Cases/Healthcare/Auth/LoginFailedUsername
+
+2023-11-13 04:42:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 04:42:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 04:42:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-11-13 04:42:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 04:42:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 04:42:59 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-13 04:43:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-13 04:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-13 04:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-13 04:43:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-13 04:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-13 04:43:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "Budi Anduk"): Text 'Budi Anduk' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-13 04:43:08 - [MESSAGE][PASSED] - Text 'Budi Anduk' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-13 04:43:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-13 04:43:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-13 04:43:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-13 04:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Homepage" time="7.41" classname="Test Cases/Healthcare/Homepage" status="PASSED">
+         <system-out><![CDATA[2023-11-13 04:43:10 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Homepage: Test Cases/Healthcare/Homepage
+
+2023-11-13 04:43:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 04:43:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 04:43:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-11-13 04:43:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 04:43:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 04:43:13 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-13 04:43:17 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-13 04:42:39 - [TEST_SUITE][PASSED] - TSHealth3: Test Cases/Healthcare/Homepage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

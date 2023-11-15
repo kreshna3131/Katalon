@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSHealthcare2,,,,2023-11-05 12:03:48,2023-11-05 12:05:12,"1m - 23,909s",FAILED
+,,,,,,,
+Test Cases/Healthcare/Homepage,,,,2023-11-05 12:04:18,2023-11-05 12:04:22,"4,113s",FAILED
+"openBrowser("""")",,,,2023-11-05 12:04:18,2023-11-05 12:04:22,"4,106s",FAILED
+,,,,,,,
+Test Cases/Healthcare/ClickComment,,,,2023-11-05 12:04:34,2023-11-05 12:04:39,"4,102s",FAILED
+"openBrowser("""")",,,,2023-11-05 12:04:34,2023-11-05 12:04:39,"4,096s",FAILED
+,,,,,,,
+Test Cases/Healthcare/ClickRadioButton,,,,2023-11-05 12:04:51,2023-11-05 12:04:55,"4,096s",FAILED
+"openBrowser("""")",,,,2023-11-05 12:04:51,2023-11-05 12:04:55,"4,096s",FAILED
+,,,,,,,
+Test Cases/Healthcare/ClickDatePicker,,,,2023-11-05 12:05:08,2023-11-05 12:05:12,"4,136s",FAILED
+"openBrowser("""")",,,,2023-11-05 12:05:08,2023-11-05 12:05:12,"4,135s",FAILED

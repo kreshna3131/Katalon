@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>datepicker</name>
+   <tag></tag>
+   <elementGuidId>67865f55-f206-4a56-85e8-3d536197ee86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#txt_visit_date</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#txt_visit_date</value>
+      <webElementGuid>d2507e27-9ff5-4a0b-84ff-0ddb9404874b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

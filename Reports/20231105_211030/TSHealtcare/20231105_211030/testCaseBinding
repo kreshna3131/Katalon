@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Healthcare/Auth/LoginSuccess","testCaseId":"Test Cases/Healthcare/Auth/LoginSuccess","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/Auth/LoginFailedUsername","testCaseId":"Test Cases/Healthcare/Auth/LoginFailedUsername","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/Auth/LoginFailedPassword","testCaseId":"Test Cases/Healthcare/Auth/LoginFailedPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/Homepage","testCaseId":"Test Cases/Healthcare/Homepage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/HandlingOptions","testCaseId":"Test Cases/Healthcare/HandlingOptions","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/ClickRadioButton","testCaseId":"Test Cases/Healthcare/ClickRadioButton","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/ClickDatePicker","testCaseId":"Test Cases/Healthcare/ClickDatePicker","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/ClickComment","testCaseId":"Test Cases/Healthcare/ClickComment","iterationVariableName":""}
+{"testCaseName":"Test Cases/Healthcare/ClickApply","testCaseId":"Test Cases/Healthcare/ClickApply","iterationVariableName":""}

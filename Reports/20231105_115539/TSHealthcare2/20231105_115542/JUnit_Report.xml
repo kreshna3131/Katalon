@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSHealthcare2" time="305.796" tests="4" failures="0" errors="0">
+   <testsuite name="TSHealthcare2" tests="4" failures="0" errors="0" time="305.796" skipped="0" timestamp="2023-11-05 11:55:54" hostname="KRESHNA PUTRA ADI - LAPTOP-7MTKCE68" id="Test Suites/TSHealthcare2">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\KRESHNA PUTRA ADI\\Katalon Studio\\KatalonPractitioner\\Reports\\20231105_115539\\TSHealthcare2\\20231105_115542"/>
+         <property name="logFiles" value="C:\\Users\\KRESHNA PUTRA ADI\\Katalon Studio\\KatalonPractitioner\\Reports\\20231105_115539\\TSHealthcare2\\20231105_115542\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KRESHNA PUTRA ADI - LAPTOP-7MTKCE68"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;&quot;
+  },
+  &quot;requestId&quot;: &quot;54dd9492-7a6b-4763-b659-03575e4eefa8&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: true,
+  &quot;browserVersion&quot;: &quot;118.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1322959,
+    &quot;organizationId&quot;: &quot;1277523&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;118.0&quot;,
+    &quot;userDataDir&quot;: &quot;\&quot;C:\\\\Windows\\\\proxy\\\\scoped_dir13044_321754463&quot;
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;***:loadExtension&quot;: [
+    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;
+  ],
+  &quot;version&quot;: &quot;118&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.59.47:4444/session/52TCD-D8DEW-ZDOGB-OI6FC/se/cdp&quot;,
+  &quot;se:bidiEnabled&quot;: false,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webdriver.remote.sessionid&quot;: &quot;52TCD-D8DEW-ZDOGB-OI6FC&quot;,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.29"/>
+         <property name="sessionId" value="52TCD-D8DEW-ZDOGB-OI6FC"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Homepage" time="48.478" classname="Test Cases/Healthcare/Homepage" status="PASSED">
+         <system-out><![CDATA[2023-11-05 11:55:55 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Homepage: Test Cases/Healthcare/Homepage
+
+2023-11-05 11:55:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-05 11:55:56 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-11-05 11:55:56 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-11-05 11:55:56 - [MESSAGE][INFO] - User set preference: ['browserVersion', '118']
+
+2023-11-05 11:55:56 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1277523, tunnelId=, usingTunnel=false}']
+
+2023-11-05 11:55:56 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-05 11:55:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-05 11:56:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-05 11:56:42 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 11:56:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/ClickComment" time="84.552" classname="Test Cases/Healthcare/ClickComment" status="PASSED">
+         <system-out><![CDATA[2023-11-05 11:56:43 - [TEST_CASE][PASSED] - Test Cases/Healthcare/ClickComment: Test Cases/Healthcare/ClickComment
+
+2023-11-05 11:56:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-05 11:56:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-05 11:56:45 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-11-05 11:56:45 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-11-05 11:56:45 - [MESSAGE][INFO] - User set preference: ['browserVersion', '118']
+
+2023-11-05 11:56:45 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1277523, tunnelId=, usingTunnel=false}']
+
+2023-11-05 11:56:45 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-05 11:56:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-05 11:57:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-05 11:57:32 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 11:57:34 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 11:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-05 11:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-05 11:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-05 11:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-05 11:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-05 11:57:51 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-05 11:57:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-05 11:57:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-05 11:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-05 11:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-05 11:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "lorem ipsum"): Text 'lorem ipsum' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-11-05 11:58:08 - [MESSAGE][PASSED] - Text 'lorem ipsum' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/ClickRadioButton" time="84.836" classname="Test Cases/Healthcare/ClickRadioButton" status="PASSED">
+         <system-out><![CDATA[2023-11-05 11:58:08 - [TEST_CASE][PASSED] - Test Cases/Healthcare/ClickRadioButton: Test Cases/Healthcare/ClickRadioButton
+
+2023-11-05 11:58:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-05 11:58:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-05 11:58:10 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-11-05 11:58:10 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-11-05 11:58:10 - [MESSAGE][INFO] - User set preference: ['browserVersion', '118']
+
+2023-11-05 11:58:10 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1277523, tunnelId=, usingTunnel=false}']
+
+2023-11-05 11:58:10 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-05 11:58:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-05 11:59:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-05 11:59:03 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 11:59:04 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 11:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-05 11:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-05 11:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-05 11:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-05 11:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-05 11:59:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-05 11:59:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-05 11:59:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-05 11:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-05 11:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-05 11:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-11-05 11:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/ClickDatePicker" time="87.644" classname="Test Cases/Healthcare/ClickDatePicker" status="PASSED">
+         <system-out><![CDATA[2023-11-05 11:59:32 - [TEST_CASE][PASSED] - Test Cases/Healthcare/ClickDatePicker: Test Cases/Healthcare/ClickDatePicker
+
+2023-11-05 11:59:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-05 11:59:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-05 11:59:34 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-11-05 11:59:34 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-11-05 11:59:34 - [MESSAGE][INFO] - User set preference: ['browserVersion', '118']
+
+2023-11-05 11:59:34 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1277523, tunnelId=, usingTunnel=false}']
+
+2023-11-05 11:59:34 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-11-05 11:59:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-05 12:00:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-05 12:00:24 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 12:00:26 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-05 12:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-05 12:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-05 12:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-05 12:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-05 12:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-05 12:00:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-11-05 12:00:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-05 12:00:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-11-05 12:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-05 12:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-05 12:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Date/datepicker")): Object: 'Object Repository/Page_CURA Healthcare Service/Date/datepicker' is clicked on
+
+2023-11-05 12:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Date/datepicker' is clicked on
+
+2023-11-05 12:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Date/dateitem")): Object: 'Object Repository/Page_CURA Healthcare Service/Date/dateitem' is clicked on
+
+2023-11-05 12:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Date/dateitem' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-05 11:55:54 - [TEST_SUITE][PASSED] - TSHealthcare2: Test Cases/Healthcare/ClickDatePicker]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

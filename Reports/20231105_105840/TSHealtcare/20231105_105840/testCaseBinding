@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Auth/LoginSuccess","testCaseId":"Test Cases/Auth/LoginSuccess","iterationVariableName":""}
+{"testCaseName":"Test Cases/Auth/LoginFailedUsername","testCaseId":"Test Cases/Auth/LoginFailedUsername","iterationVariableName":""}
+{"testCaseName":"Test Cases/Auth/LoginFailedPassword","testCaseId":"Test Cases/Auth/LoginFailedPassword","iterationVariableName":""}

@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSHealtcare,Windows - Chrome 118.0.0.0,,,2023-11-05 11:41:34,2023-11-05 11:53:37,"12m - 2,809s",PASSED
+,,,,,,,
+Test Cases/Healthcare/Auth/LoginSuccess,Windows - Chrome 118.0.0.0,,,2023-11-05 11:41:34,2023-11-05 11:42:57,"1m - 22,696s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:41:34,2023-11-05 11:42:25,"50,671s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:25,2023-11-05 11:42:27,"1,698s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:27,2023-11-05 11:42:31,"3,810s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:31,2023-11-05 11:42:40,"9,109s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:40,2023-11-05 11:42:48,"7,864s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:48,2023-11-05 11:42:53,"5,118s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:53,2023-11-05 11:42:57,"4,124s",PASSED
+,,,,,,,
+Test Cases/Healthcare/Auth/LoginFailedUsername,Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:57,2023-11-05 11:44:19,"1m - 21,702s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:42:57,2023-11-05 11:43:49,"52,060s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:43:49,2023-11-05 11:43:50,"1,294s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:43:50,2023-11-05 11:43:55,"4,253s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:43:55,2023-11-05 11:43:59,"4,157s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""Budi Anduk"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:43:59,2023-11-05 11:44:07,"8,154s",PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:44:07,2023-11-05 11:44:12,"4,932s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:44:12,2023-11-05 11:44:19,"6,631s",PASSED
+,,,,,,,
+Test Cases/Healthcare/Auth/LoginFailedPassword,Windows - Chrome 118.0.0.0,,,2023-11-05 11:44:19,2023-11-05 11:45:34,"1m - 15,331s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:44:19,2023-11-05 11:45:06,"47,269s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:06,2023-11-05 11:45:07,"1,386s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:07,2023-11-05 11:45:11,"3,962s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:11,2023-11-05 11:45:16,"4,707s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:16,2023-11-05 11:45:25,"8,435s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), ""HmrGm9h9Lhv0hmTD06Fuuw=="")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:25,2023-11-05 11:45:30,"5,247s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:30,2023-11-05 11:45:34,"4,105s",PASSED
+,,,,,,,
+Test Cases/Healthcare/Homepage,Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:34,2023-11-05 11:46:25,"51,454s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:45:34,2023-11-05 11:46:24,"49,898s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:46:24,2023-11-05 11:46:25,"1,290s",PASSED
+,,,,,,,
+Test Cases/Healthcare/HandlingOptions,Windows - Chrome 118.0.0.0,,,2023-11-05 11:46:25,2023-11-05 11:47:56,"1m - 30,178s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:46:26,2023-11-05 11:47:13,"47,370s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:13,2023-11-05 11:47:14,"1,380s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:14,2023-11-05 11:47:18,"4,143s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:18,2023-11-05 11:47:23,"4,736s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:23,2023-11-05 11:47:31,"7,979s",PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:31,2023-11-05 11:47:36,"4,941s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:36,2023-11-05 11:47:40,"4,059s",PASSED
+"selectOptionByIndex(findTestObject(""Page_CURA Healthcare Service/selectFacility""), 2)",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:40,2023-11-05 11:47:56,"15,320s",PASSED
+,,,,,,,
+Test Cases/Healthcare/ClickRadioButton,Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:56,2023-11-05 11:49:15,"1m - 19,610s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:47:56,2023-11-05 11:48:43,"47,316s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:48:43,2023-11-05 11:48:45,"1,250s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:48:45,2023-11-05 11:48:49,"4,042s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:48:49,2023-11-05 11:48:53,"4,318s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:48:53,2023-11-05 11:49:01,"8,361s",PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:49:01,2023-11-05 11:49:06,"5,150s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:49:06,2023-11-05 11:49:11,"4,558s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:49:11,2023-11-05 11:49:15,"4,192s",PASSED
+,,,,,,,
+Test Cases/Healthcare/ClickDatePicker,Windows - Chrome 118.0.0.0,,,2023-11-05 11:49:15,2023-11-05 11:50:38,"1m - 23,149s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:49:16,2023-11-05 11:50:03,"47,346s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:03,2023-11-05 11:50:04,"1,586s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:04,2023-11-05 11:50:09,"4,367s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:09,2023-11-05 11:50:13,"4,282s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:13,2023-11-05 11:50:21,"8,086s",PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:21,2023-11-05 11:50:26,"4,731s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:26,2023-11-05 11:50:30,"4,369s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Date/datepicker""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:30,2023-11-05 11:50:34,"3,842s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Date/dateitem""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:34,2023-11-05 11:50:38,"4,104s",PASSED
+,,,,,,,
+Test Cases/Healthcare/ClickComment,Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:38,2023-11-05 11:52:09,"1m - 30,870s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:50:39,2023-11-05 11:51:32,"52,918s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:32,2023-11-05 11:51:33,"1,131s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:33,2023-11-05 11:51:37,"4,185s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:37,2023-11-05 11:51:41,"4,329s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:41,2023-11-05 11:51:50,"8,604s",PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:50,2023-11-05 11:51:55,"4,695s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:55,2023-11-05 11:51:58,"3,886s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""lorem ipsum"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:51:58,2023-11-05 11:52:09,"10,761s",PASSED
+,,,,,,,
+Test Cases/Healthcare/ClickApply,Windows - Chrome 118.0.0.0,,,2023-11-05 11:52:09,2023-11-05 11:53:37,"1m - 27,559s",PASSED
+"openBrowser("""")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:52:10,2023-11-05 11:53:03,"53,625s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:03,2023-11-05 11:53:05,"1,419s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:05,2023-11-05 11:53:08,"3,861s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:08,2023-11-05 11:53:13,"4,977s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:13,2023-11-05 11:53:23,"9,720s",PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:23,2023-11-05 11:53:28,"5,302s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:28,2023-11-05 11:53:33,"4,197s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Windows - Chrome 118.0.0.0,,,2023-11-05 11:53:33,2023-11-05 11:53:37,"4,104s",PASSED
